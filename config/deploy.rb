@@ -1,9 +1,9 @@
 # config valid for current version and patch releases of Capistrano
 lock '~> 3.11.0'
 
-set :rvm_ruby_version, '2.4.2@default_project'
-set :application, 'default_project'
-set :repo_url, 'git@github.com:eci-rhc/lv-default-project.git'
+set :rvm_ruby_version, '2.4.2@nest-homes'
+set :application, 'nest-homes'
+set :repo_url, 'git@github.com:eci-rhc/lv-nest-homes.git'
 set :deploy_via, :remote_cache
 set :passenger_restart_with_touch, true
 
