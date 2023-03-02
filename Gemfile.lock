@@ -1,7 +1,7 @@
 GIT
   remote: git@github.com:eci-rhc/lv-lotvue-core.git
-  revision: 67ed3027cdd965ba32bb44ca3366cd853bd16e6d
-  branch: master
+  revision: 70f0fda73047924cd21c098dbffbf7d7ecc2c081
+  branch: nest_homes_master
   specs:
     lotvue_core (1.0.0)
       activerecord-import (~> 1.0.2)
@@ -28,6 +28,7 @@ GIT
       ckeditor (~> 5.1.0)
       climate_control (~> 0.2.0)
       cocaine (~> 0.5.8)
+      cocoon
       coderay (~> 1.1.3)
       coffee-rails (~> 5.0.0)
       coffee-script (~> 2.4.1)
@@ -265,6 +266,7 @@ GEM
     climate_control (0.2.0)
     cocaine (0.5.8)
       climate_control (>= 0.0.3, < 1.0)
+    cocoon (1.2.15)
     coderay (1.1.3)
     coffee-rails (5.0.0)
       coffee-script (>= 2.2.0)
@@ -384,7 +386,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.4)
     multi_xml (0.6.0)
-    mysql2 (0.5.4)
+    mysql2 (0.5.5)
     nested_form (0.3.2)
     net-scp (3.0.0)
       net-ssh (>= 2.6.5, < 7.0.0)
@@ -459,8 +461,8 @@ GEM
       redis-actionpack (>= 5.0, < 6)
       redis-activesupport (>= 5.0, < 6)
       redis-store (>= 1.2, < 2)
-    redis-store (1.9.1)
-      redis (>= 4, < 5)
+    redis-store (1.9.2)
+      redis (>= 4, < 6)
     ref (2.0.0)
     responders (3.0.1)
       actionpack (>= 5.0)
@@ -567,4 +569,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   2.2.30
+   2.3.26
