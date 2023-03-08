@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:eci-rhc/lv-lotvue-core.git
-  revision: 70f0fda73047924cd21c098dbffbf7d7ecc2c081
+  revision: b5070decc71307243dfdbf272f6a4b205ff86f47
   branch: nest_homes_master
   specs:
     lotvue_core (1.0.0)
@@ -358,7 +358,7 @@ GEM
       less (~> 2.6.0)
       sprockets (> 2, < 4)
       tilt
-    libv8 (3.16.14.19-x86_64-linux)
+    libv8 (3.16.14.19)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -399,7 +399,7 @@ GEM
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    rack (2.2.5)
+    rack (2.2.6.3)
     rack-cache (1.12.1)
       rack (>= 0.4)
     rack-contrib (2.3.0)
@@ -502,7 +502,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sshkit (1.21.3)
+    sshkit (1.21.4)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
     sucker_punch (3.0.1)
@@ -520,7 +520,7 @@ GEM
       execjs (~> 2.7)
       less-rails (~> 2.8, >= 2.8.0)
       railties (~> 5.0, >= 5.0.1)
-    tzinfo (1.2.10)
+    tzinfo (1.2.11)
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
@@ -547,7 +547,7 @@ GEM
     wkhtmltopdf-binary-edge (0.12.5.1)
 
 PLATFORMS
-  x86_64-linux
+  ruby
 
 DEPENDENCIES
   active_record_query_trace
@@ -569,4 +569,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   2.3.26
+   1.17.3
